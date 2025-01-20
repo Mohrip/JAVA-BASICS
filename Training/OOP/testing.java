@@ -1,4 +1,4 @@
-package Training.Methods;
+package Training.OOP;
 
 public class testing {
     public static void main(String[] args) {
