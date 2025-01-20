@@ -21,26 +21,26 @@ learning
 # Java Learning Roadmap
 
 
-## Stage 1: Basics of Java
+## Stage 1: Basics of Java ( √ )
 
-### ( Introduction to Java )
+### ( Introduction to Java ) ( √ )
 - History of Java
 - Features of Java
 - Setting up the Java Development Kit (JDK)
 - Setting up an Integrated Development Environment (IDE) like IntelliJ IDEA, Eclipse, or VS Code
 
-### ( Basic Syntax )
+### ( Basic Syntax ) ( √ )
 - Structure of a Java program
 - Writing your first Java program
 - Compiling and running a Java program
 
-### ( Variables and Data Types )
+### ( Variables and Data Types ) ( √ )
 - Primitive data types (int, float, double, char, boolean, etc.)
 - Reference data types (String, arrays, classes)
 - Variable declaration and initialization
 - Type casting and type conversion
 
-### ( Operators )
+### ( Operators ) ( √ )
 - Arithmetic operators
 - Relational operators
 - Logical operators
