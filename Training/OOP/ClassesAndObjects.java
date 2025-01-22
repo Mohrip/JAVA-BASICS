@@ -23,7 +23,7 @@ public class ClassesAndObjects {
         System.out.println("Price: " + price);
     }
 
-    public void displayDetails
+    public void displayDetails()
     
     
     }
