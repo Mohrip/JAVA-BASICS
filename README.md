@@ -58,7 +58,7 @@ learning
 
 ## Stage 2: Object-Oriented Programming (OOP)
 
-### ( Classes and Objects )
+### ( Classes and Objects ) ( √ )
 - Defining classes and creating objects
 - Constructors
 - `this` keyword
