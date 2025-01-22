@@ -18,6 +18,12 @@ public class Datatypes {
     String FullName = Fname + " " + Lname;
     Boolean isTrue = true;
 
+    for (int i = 0; i< 500; i++){
+        System.out.println(i);
+    }
+
+   
+
         System.out.println("This is to print the math" + c + z);
         System.out.println("This is to print string of none" + none);
         System.out.println(FullName);
