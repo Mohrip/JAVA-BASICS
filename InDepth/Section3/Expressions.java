@@ -12,7 +12,7 @@ public class Expressions {
 
         // Arithmetic operators
         int sum = x + y;
-        int difference = x - y;
+        int difference = x - y -z;
         int product = x * y;
         int quotient = x / y;
         int remainder = x % y;
