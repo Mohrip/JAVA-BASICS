@@ -14,7 +14,10 @@ public class ArithmeticOperations {
         
         int opr = (num1 + num2) / num3 + num5 * num3 / (num1 + num2+ num3+ num4);
 
-    
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda", "Toyota", "Mercedes", "Audi", "Lamborghini", "Ferrari", "Porsche", "Bugatti", "Koenigsegg", "Pagani", "Mclaren", "Aston Martin", "Jaguar", "Land Rover", "Bentley", "Rolls Royce", "Maserati", "Alfa Romeo", "Fiat", "Lancia", "Lancia", "Citroen", "Peugeot", "Renault", "Opel", "Volkswagen", "Seat", "Skoda", "Audi", "Mercedes", "BMW", "Porsche", "Ferrari", "Lamborghini", "Bugatti", "Koenigsegg", "Pagani", "Mclaren", "Aston Martin", "Jaguar", "Land Rover", "Bentley", "Rolls Royce", "Maserati", "Alfa Romeo", "Fiat", "Lancia", "Citroen", "Peugeot", "Renault", "Opel", "Volkswagen", "Seat", "Skoda", "Audi", "Mercedes", "BMW", "Porsche", "Ferrari", "Lamborghini", "Bugatti", "Koenigsegg", "Pagani", "Mclaren", "Aston Martin", "Jaguar", "Land Rover", "Bentley", "Rolls Royce", "Maserati", "Alfa Romeo", "Fiat", "Lancia", "Citroen", "Peugeot", "Renault", "Opel", "Volkswagen", "Seat", "Skoda", "Audi", "Mercedes", "BMW", "Porsche", "Ferrari", "Lamborghini", "Bugatti", "Koenigsegg", "Pagani", "Mclaren", "Aston Martin", "Jaguar", "Land Rover", "Bentley", "Rolls Royce", "Maserati", "Alfa Romeo", "Fiat", "Lancia", "Citroen", "Peugeot", "Renault", "Opel", "Volkswagen", "Seat", "Skoda", "Audi", "Mercedes", "BMW", "Porsche", "Ferrari", "Lamborghini", "Bugatti", "Koenigsegg", "Pagani", "Mclaren", "Aston Martin", "Jag", "Land Rover", "Bentley", "Rolls Royce", "Maserati", "Alfa Romeo", "Fiat", "Lancia", "Citroen", "Peugeot", "Renault", "Opel", "Volkswagen", "Seat", "Skoda", "Audi", "Mercedes", "BMW", "Porsche", "Ferrari", "Lamborghini", "Bugatti", "Koenigsegg", "Pagani", "Mclaren", "Aston Martin", "Jaguar", "Land Rover", "Bentley", "Rolls Royce", "Maserati", "Alfa Romeo", "Fiat", "Lancia", "Citroen", "Peugeot", "Renault", "Opel", "Volkswagen", "Seat", "Skoda", "Audi", "Mercedes", "BMW", "Porsche", "Ferrari", "Lamborghini", "Bugatti", "Koenigsegg", "Pagani", "Mclaren", "Aston Martin", "Jaguar", "Land Rover", "Bentley", "Rolls Royce", "Maserati", "Alfa Romeo", "Fiat", "Lancia", "Citroen", "Peugeot", "Renault", "Opel", "Volkswagen", "Seat", "Skoda", "Audi", "Mercedes", "BMW", "Porsche", "Ferrari", "Lamborghini", "Bugatti", "Koenigsegg", "Pagani", "Mclaren", "Aston Martin", "Jaguar", "Land Rover", "Bentley", "Rolls Royce", "Maserati", "Alfa Romeo", "Fiat", "Lancia", "Citroen", "Peugeot", "Renault", "Opel", "Volkswagen", "Seat", "Skoda", "Audi", "Mercedes", "BMW", "Porsche", "Ferrari", "Lamborghini", "Bugatti", "Koenigsegg", "Pagani", "Mclaren", "Aston Martin", "Jaguar", "Land Rover", "Bentley", "Rolls Royce", "Maserati", "Alfa Romeo", "Fiat", "L"}; 
+
+    for (String i : cars) {
+        System.out.println(i);
 
         System.out.println("This is sum" + "" + sum);
         System.out.println("This is product" + "" + product);
@@ -24,4 +27,4 @@ public class ArithmeticOperations {
         System.out.println("This is subtraction" + "" + subtraction);
 
     }
-}
+    }}
