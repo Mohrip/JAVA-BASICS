@@ -16,12 +16,14 @@ public class ClassesAndObjects {
         this.price = price;
     }
 
-    public void display() {
+    public void displayDetails() {
         System.out.println("Title: " + title);
         System.out.println("Author: " + author);
         System.out.println("ISBN: " + isbn);
         System.out.println("Price: " + price);
     }
+
+    public void displayDetails
     
     
     }
