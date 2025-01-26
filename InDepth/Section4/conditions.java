@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class conditions {
     public static void main(String[] args) {
 
-        // here i want to use scanner to get the input from the user
+        // here i want to use scanner to get the input from the user 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the day: ");
         String Days = scanner.nextLine();
