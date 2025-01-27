@@ -12,7 +12,9 @@ public class statements {
                 "still more.");
 
         int anotherVariable = 50;
+        System.out.println("The value of anotherVariable is: " + anotherVariable);
         myVariable--;
+        System.out.println("The value of myVariable is: " + myVariable);
         System.out.println("This is another one");
     }
     
