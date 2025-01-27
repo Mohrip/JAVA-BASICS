@@ -8,7 +8,7 @@ public class PositiveNegativeZero {
        } else if (number < 0) {
            System.out.println("negative");
        } else if (number == 0)
-       System.out.println("zero");
+       System.out.println("zero, good job!");
     }
     public static void main(String[] args) {
         checkNumber(5);
