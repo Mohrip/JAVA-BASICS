@@ -1,4 +1,4 @@
-package InDepth.Section6;
+package SecureCLI;
 import java.util.Scanner;
 
 public class MilitaryCommandCLI {

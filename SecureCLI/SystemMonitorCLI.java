@@ -1,4 +1,4 @@
-package InDepth.Section6;
+package SecureCLI;
 import java.lang.management.ManagementFactory;
 import java.lang.management.OperatingSystemMXBean;
 import java.util.Scanner;
