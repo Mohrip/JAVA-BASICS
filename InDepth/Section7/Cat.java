@@ -26,5 +26,18 @@ public class Cat extends Animal {
         System.out.println("Cat is scratching");
     }
 
+    public void meow() {
+        System.out.println("Cat is meowing");
+    }
+
     
-}
+
+public static void main(String[] args) {
+    Cat cat = new Cat("Whiskers", "Cat", 10.0);
+    cat.eat("Cat food");
+    cat.sleep();
+    cat.move();
+    cat.purr();
+    cat.scratch();
+    cat.meow();
+}}
