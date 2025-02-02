@@ -69,7 +69,7 @@ learning
 - Access modifiers (private, public, protected, default)
 - Getters and setters
 
-### ( Inheritance )
+### ( Inheritance ) ( √ )
 - Superclass and subclass
 - `super` keyword
 - Method overriding
