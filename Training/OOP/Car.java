@@ -25,6 +25,7 @@ public Car(String name, String model, String color, int year) {
 
     public static void main(String[] args) {
         Car car = new Car("Toyota", "Corolla", "Black", 2020);
+        System.out.println("Car name: " + car.getName() + "\nCar model: " + car.getModel() + "\nCar color: " + car.getColor() + "\nCar year: " + car.getYear());
         car.start();
         car.accelerate();
         car.turnLeft();
