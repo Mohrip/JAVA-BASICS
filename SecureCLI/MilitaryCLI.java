@@ -1,5 +1,5 @@
 package SecureCLI;
 
-public class MilitaryCLI {
+public class MilitaryCLI { 
     
 }
