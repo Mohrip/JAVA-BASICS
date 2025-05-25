@@ -10,7 +10,7 @@ public class ArithmeticOperations {
         int product = num1 * num2;
         int division = num2 / num1;
         int modulus = num2 % num1;
-        int subtraction = num2 - num1;
+        int subtraction = num2 - num1; 
         
         int opr = (num1 + num2) / num3 + num5 * num3 / (num1 + num2+ num3+ num4);
 
