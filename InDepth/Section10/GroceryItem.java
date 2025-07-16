@@ -1,6 +1,5 @@
 package InDepth.Section10;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -18,11 +17,12 @@ public record GroceryItem(String name, String type, int count) {
         groceryItems[2] = new GroceryItem("Eggs", "PRODUCE", 12);
         System.err.println(Arrays.toString(groceryItems));
 
-        ArrayList objecList = new ArrayList();
-        objecList.add(new GroceryItem("Butter"));
-        objecList.add(new GroceryItem("Cheese", "DAIRY", 5));
+        ArrayList<GroceryItem> objectList = new ArrayList<>();
+        objectList.add(new GroceryItem("Butter"));
+        objectList.add(new GroceryItem("Cheese", "DAIRY", 5));
 
         ArrayList<GroceryItem> groceryList = new ArrayList<>();
+        groceryList.add(new GroceryItem("Yogurt"));
         
     }
 
