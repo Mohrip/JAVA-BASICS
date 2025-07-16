@@ -15,7 +15,7 @@ public record GroceryItem(String name, String type, int count) {
         groceryItems[0] = new GroceryItem("Milk");
         groceryItems[1] = new GroceryItem("Bread", "BAKERY", 2);
         groceryItems[2] = new GroceryItem("Eggs", "PRODUCE", 12);
-        System.err.println(Arrays.toString(groceryItems));
+        System.out.println(Arrays.toString(groceryItems));
 
         ArrayList<GroceryItem> objectList = new ArrayList<>();
         objectList.add(new GroceryItem("Butter"));
@@ -23,6 +23,7 @@ public record GroceryItem(String name, String type, int count) {
 
         ArrayList<GroceryItem> groceryList = new ArrayList<>();
         groceryList.add(new GroceryItem("Yogurt"));
+        System.out.println(groceryList);
         
     }
 
