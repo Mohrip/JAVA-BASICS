@@ -8,6 +8,10 @@ import java.util.logging.Logger;
 public class UserManager {
 
   private static final Logger logger = Logger.getLogger(UserManager.class.getName());
+  static {
+
+   System.setProperty("java.util.logging.SimpleFormatter.format", "%5$s%n");
+  }
   private List<User> users = new ArrayList<>();
   private Scanner scanner = new Scanner(System.in);
 
@@ -32,9 +36,11 @@ public class UserManager {
     String username = scanner.nextLine();
     logger.info("Enter password:");
     String password = scanner.nextLine();
+    logger.info("Enter secret answer:");
+    String secretAnswer = scanner.nextLine();
 
     for (User user : users) {
-      if (user.getUsername().equals(username) && user.getPassword().equals(password)) {
+      if (user.getUsername().equals(username) && user.getPassword().equals(password) && user.getSecretAnswer().equals(secretAnswer)) {
         logger.info("Login successful!");
         return;
       }
