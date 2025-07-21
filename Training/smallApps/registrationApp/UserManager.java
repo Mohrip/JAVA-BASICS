@@ -34,7 +34,7 @@ public class UserManager {
   public void login() {
     System.out.println("Enter username:");
     String username = scanner.nextLine();
-    logger.info("Enter password:");
+    System.out.println("Enter password:");
     String password = scanner.nextLine();
     logger.info("Enter secret answer:");
     String secretAnswer = scanner.nextLine();
