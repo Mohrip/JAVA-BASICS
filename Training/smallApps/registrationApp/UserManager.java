@@ -74,7 +74,7 @@ public class UserManager {
     while (true) {
       System.out.println("\nWelcome to User Management System");
       System.out.println("1. Register");
-      logger.info("2. Login");
+      System.out.println("2. Login");
       logger.info("3. Reset Password");
       logger.info("4. Exit");
       logger.info("Choose an option: ");
