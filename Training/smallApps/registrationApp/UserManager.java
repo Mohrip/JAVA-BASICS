@@ -16,9 +16,9 @@ public class UserManager {
   private Scanner scanner = new Scanner(System.in);
 
   public void register() {
-    logger.info("Enter username:");
+    System.out.println("Enter username:");
     String username = scanner.nextLine();
-    logger.info("Enter password:");
+    System.out.println("Enter password:");
     String password = scanner.nextLine();
     logger.info("Enter email:");
     String email = scanner.nextLine();
