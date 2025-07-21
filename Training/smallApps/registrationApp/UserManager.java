@@ -6,11 +6,34 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 import java.util.InputMismatchException;
 
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.logging.*;
+
 public class UserManager {
 
   private static final Logger logger = Logger.getLogger(UserManager.class.getName());
 
   static {
+    try {
+      File logDir = new File ("logs");
+      if(!logDir.exists()) {
+        logDir.mkdir();
+      }
+
+      String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
+      String logPath = "logs/app_" + timestamp + ".log";
+      FileHandler fh = new FileHandler(logPath);
+        fh.setFormatter(new SimpleFormatter());
+        logger.addHandler(fh);
+        logger.setLevel(Level.INFO);
+        fh.setLevel(Level.INFO);
+    } catch (IOException e) {
+        logger.severe("Failed to initialize logger: " + e.getMessage());
+
+    }
     System.setProperty("java.util.logging.SimpleFormatter.format", "%5$s%n");
   }
 

@@ -1,0 +1,16 @@
+Jul 21, 2025 9:14:33 AM Training.smallApps.registrationApp.UserManager start
+WARNING: Invalid input. Please enter a number between 1 and 4.
+Jul 21, 2025 9:14:33 AM Training.smallApps.registrationApp.UserManager start
+WARNING: Invalid input. Please enter a number between 1 and 4.
+Jul 21, 2025 9:14:33 AM Training.smallApps.registrationApp.UserManager resetPassword
+INFO: Enter your username:
+Jul 21, 2025 9:14:34 AM Training.smallApps.registrationApp.UserManager resetPassword
+WARNING: User not found.
+Jul 21, 2025 9:14:34 AM Training.smallApps.registrationApp.UserManager resetPassword
+INFO: Enter your username:
+Jul 21, 2025 9:14:34 AM Training.smallApps.registrationApp.UserManager resetPassword
+WARNING: User not found.
+Jul 21, 2025 9:14:34 AM Training.smallApps.registrationApp.UserManager resetPassword
+INFO: Enter your username:
+Jul 21, 2025 9:14:34 AM Training.smallApps.registrationApp.UserManager resetPassword
+WARNING: User not found.
