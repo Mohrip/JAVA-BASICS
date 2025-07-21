@@ -24,7 +24,7 @@ public class UserManager {
     String email = scanner.nextLine();
     System.out.println("Enter secret question:");
     String secretQuestion = scanner.nextLine();
-    logger.info("Enter secret answer:");
+    System.out.println("Enter secret answer:");
     String secretAnswer = scanner.nextLine();
 
     users.add(new User(username, password, secretQuestion, secretAnswer, email));
