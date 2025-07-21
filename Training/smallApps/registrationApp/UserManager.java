@@ -75,9 +75,9 @@ public class UserManager {
       System.out.println("\nWelcome to User Management System");
       System.out.println("1. Register");
       System.out.println("2. Login");
-      logger.info("3. Reset Password");
-      logger.info("4. Exit");
-      logger.info("Choose an option: ");
+      System.out.println("3. Reset Password");
+      System.out.println("4. Exit");
+      System.out.println("Choose an option: ");
       int choice = scanner.nextInt();
       scanner.nextLine();
 
