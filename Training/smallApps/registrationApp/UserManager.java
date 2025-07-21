@@ -32,7 +32,7 @@ public class UserManager {
   }
 
   public void login() {
-    logger.info("Enter username:");
+    System.out.println("Enter username:");
     String username = scanner.nextLine();
     logger.info("Enter password:");
     String password = scanner.nextLine();
