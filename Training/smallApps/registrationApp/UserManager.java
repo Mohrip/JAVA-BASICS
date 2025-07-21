@@ -22,7 +22,7 @@ public class UserManager {
     String password = scanner.nextLine();
     System.out.println("Enter email:");
     String email = scanner.nextLine();
-    logger.info("Enter secret question:");
+    System.out.println("Enter secret question:");
     String secretQuestion = scanner.nextLine();
     logger.info("Enter secret answer:");
     String secretAnswer = scanner.nextLine();
