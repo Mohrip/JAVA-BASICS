@@ -129,7 +129,7 @@ public class MilitarySecCLI {
             String logs = new String(Files.readAllBytes(Paths.get(LOG_FILE)));
             System.out.println("System Logs:\n" + logs);
         } catch (IOException e) {
-            System.out.println("No logs available.");
+            System.out.println("No Training.smallApps.registrationApp.logs available.");
         }
     }
 }
