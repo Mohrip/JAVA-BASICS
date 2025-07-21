@@ -4,14 +4,16 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.logging.Logger;
+import java.util.InputMismatchException;
 
 public class UserManager {
 
   private static final Logger logger = Logger.getLogger(UserManager.class.getName());
-  static {
 
-   System.setProperty("java.util.logging.SimpleFormatter.format", "%5$s%n");
+  static {
+    System.setProperty("java.util.logging.SimpleFormatter.format", "%5$s%n");
   }
+
   private List<User> users = new ArrayList<>();
   private Scanner scanner = new Scanner(System.in);
 
@@ -40,7 +42,9 @@ public class UserManager {
     String secretAnswer = scanner.nextLine();
 
     for (User user : users) {
-      if (user.getUsername().equals(username) && user.getPassword().equals(password) && user.getSecretAnswer().equals(secretAnswer)) {
+      if (user.getUsername().equals(username)
+          && user.getPassword().equals(password)
+          && user.getSecretAnswer().equals(secretAnswer)) {
         logger.info("Login successful!");
         return;
       }
@@ -78,25 +82,30 @@ public class UserManager {
       System.out.println("3. Reset Password");
       System.out.println("4. Exit");
       System.out.println("Choose an option: ");
-      int choice = scanner.nextInt();
-      scanner.nextLine();
-
-      switch (choice) {
-        case 1:
-          register();
-          break;
-        case 2:
-          login();
-          break;
-        case 3:
-          resetPassword();
-          break;
-        case 4:
-          logger.info("Exiting...");
-          return;
-        default:
-          logger.warning("Invalid choice. Please try again.");
+      try {
+        int choice = scanner.nextInt();
+        scanner.nextLine();
+        switch (choice) {
+          case 1:
+            register();
+            break;
+          case 2:
+            login();
+            break;
+          case 3:
+            resetPassword();
+            break;
+          case 4:
+            logger.info("Exiting...");
+            return;
+          default:
+            logger.warning("Invalid input. Please enter a number between 1 and 4.");
+        }
+      } catch (InputMismatchException e) {
+        logger.warning("Invalid choice. Please try again.");
+        scanner.nextLine();
       }
     }
   }
-}
+  }
+
