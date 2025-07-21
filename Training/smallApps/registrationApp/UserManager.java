@@ -73,7 +73,7 @@ public class UserManager {
   public void start() {
     while (true) {
       System.out.println("\nWelcome to User Management System");
-      logger.info("1. Register");
+      System.out.println("1. Register");
       logger.info("2. Login");
       logger.info("3. Reset Password");
       logger.info("4. Exit");
