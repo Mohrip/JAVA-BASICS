@@ -22,13 +22,12 @@ public class Main {
             System.out.println("Decrypted Data: " + decryptedData);
 
 
-            // 2. File encryption/decryption with hardcoded path
             String inputFile = "C:\\Users\\m.alsaif\\Desktop\\test22\\test-enc.txt";
             String encryptedFile = "C:\\Users\\m.alsaif\\Desktop\\test22\\test-enc.enc";
            // String decryptedFile = "";
             byte[] fileKey = "12345678901234561234567890123456".getBytes("UTF-8");
 
-            FileEncryption.encryptWitEcb(inputFile, encryptedFile, fileKey);
+            FileEncryption.encryptWitCcb(inputFile, encryptedFile, fileKey);
            // FileEncryption.decryptWithCbc(encryptedFile, decryptedFile, fileKey);
             System.out.println("Hardcoded file encrypted and decrypted.");
 
@@ -41,7 +40,7 @@ public class Main {
                 String userEncrypted = selectedFile.getParent() + File.separator + "user_encrypted.enc";
                 String userDecrypted = selectedFile.getParent() + File.separator + "user_decrypted" + getFileExtension(selectedFile);
 
-                FileEncryption.encryptWitEcb(selectedFile.getAbsolutePath(), userEncrypted, fileKey);
+                FileEncryption.encryptWitCcb(selectedFile.getAbsolutePath(), userEncrypted, fileKey);
                 FileEncryption.decryptWithCbc(userEncrypted, userDecrypted, fileKey);
                 System.out.println("Selected file encrypted and decrypted.");
             }
