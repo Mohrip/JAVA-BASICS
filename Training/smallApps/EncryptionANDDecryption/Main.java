@@ -11,7 +11,6 @@ public class Main {
             Scanner scanner = new Scanner(System.in);
             System.out.print("Enter a word to encrypt: ");
             String data = scanner.nextLine();
-
             SecretKey key = Encryption.generateKey();
             byte[] iv = Encryption.generateIV();
 
