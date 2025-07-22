@@ -14,3 +14,9 @@ JAVA-BASICS.iml
 
 # Build folders
 build/
+
+production/
+
+out/
+
+JAVA-BASICS/out/
