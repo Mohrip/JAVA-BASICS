@@ -10,6 +10,7 @@ target/
 *.iml
 *.iws
 *.ipr
+JAVA-BASICS.iml
 
 # Build folders
 build/
