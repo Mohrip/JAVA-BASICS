@@ -1,4 +1,4 @@
-package Training.smallApps.questionApp;
+package smallApps.questionApp;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Training.smallApps.NumberGuessingGame;
+package smallApps.NumberGuessingGame;
 
 
 public class Main {

@@ -1,4 +1,4 @@
-package Training.smallApps.NumberGuessingGame;
+package smallApps.NumberGuessingGame;
 
 import java.util.List;
 import java.util.ArrayList;

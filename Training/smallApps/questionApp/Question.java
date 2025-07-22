@@ -1,4 +1,4 @@
-package Training.smallApps.questionApp;
+package smallApps.questionApp;
 
 import java.util.List;
 
