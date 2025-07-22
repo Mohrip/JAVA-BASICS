@@ -13,7 +13,8 @@ import java.security.SecureRandom;
 
 public class FileEncryption {
 
-    public static void encryptWitEcb(String filenamePlain, String filenameEncrypted, byte[] key)
+
+    public static void encryptWitCbc(String filenamePlain, String filenameEncrypted, byte[] key)
             throws IOException, NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException,
                    IllegalBlockSizeException, BadPaddingException, InvalidAlgorithmParameterException {
         Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
