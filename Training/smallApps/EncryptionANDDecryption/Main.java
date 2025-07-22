@@ -27,7 +27,7 @@ public class Main {
            // String decryptedFile = "";
             byte[] fileKey = "12345678901234561234567890123456".getBytes("UTF-8");
 
-            FileEncryption.encryptWitCcb(inputFile, encryptedFile, fileKey);
+            FileEncryption.encryptWitCbc(inputFile, encryptedFile, fileKey);
            // FileEncryption.decryptWithCbc(encryptedFile, decryptedFile, fileKey);
             System.out.println("Hardcoded file encrypted and decrypted.");
 
@@ -40,7 +40,7 @@ public class Main {
                 String userEncrypted = selectedFile.getParent() + File.separator + "user_encrypted.enc";
                 String userDecrypted = selectedFile.getParent() + File.separator + "user_decrypted" + getFileExtension(selectedFile);
 
-                FileEncryption.encryptWitCcb(selectedFile.getAbsolutePath(), userEncrypted, fileKey);
+                FileEncryption.encryptWitCbc(selectedFile.getAbsolutePath(), userEncrypted, fileKey);
                 FileEncryption.decryptWithCbc(userEncrypted, userDecrypted, fileKey);
                 System.out.println("Selected file encrypted and decrypted.");
             }
